@@ -7,6 +7,7 @@ PImage background1;
 PImage background2;
 PImage background3;
 
+
 int background1x;
 int background2x;
 int background3x;
@@ -16,26 +17,21 @@ int x;
 int y;
 
 void setup(){
-  size(641,482);
+  size(640,480);
   
-  // enemy 
   enemy = loadImage("img/enemy.png");
   x = 30;
   y = floor(random(30,410));
   
-  // treasure 
   treasure = loadImage("img/treasure.png");
   treasurex = floor(random(15,340));
   treasurey = floor(random(30,440));
   
-  // fighter
   fighter = loadImage("img/fighter.png");
   
-  // HP
   HP = loadImage("img/hp.png");
   
-  // BG img
-  
+
   background1x = 0 ;
   
   background1 = loadImage("img/bg1.png");
