@@ -38,11 +38,11 @@ void setup(){
   
   background1x = 0 ;
   
-  background1 = loadImage("img/background1.png");
+  background1 = loadImage("img/bg1.png");
   
-  background2 = loadImage("img/background2.png");
+  background2 = loadImage("img/bg2.png");
   
-  background3 = loadImage("img/background1.png");
+  background3 = loadImage("img/bg1.png");
   
   
 }
